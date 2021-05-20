@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="logo"><img src="img/logo.png" alt=""></div>
+    <div class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="quienes.html">Quienes somos</a>
+        <a href="donde.html">Donde estamos</a>
+        <a href="login.html">Iniciar Sesion</a>
+      </div>
+      <a title="MentesColmena" href="https://twitter.com/ColmenaMentes" target="_blank"><img src="img/logo.png" alt="MentesColmena" /></a>
+      <h1>Registro  </h1>
+    <form action="datos.php" id="registrarse" method="post">
+    <label for="text">USUARIO</label> 
+    <input type="text" name="usuario"> <br> <br>
+    <label for="">EMAIL</label>
+    <input type="text" name='email'> <br> <br>
+    <label for="">Clave</label>
+    <input type="text" name='contrasena'> <br> <br>
+    <label for="">SEXO</label> <br>
+    <input type="radio" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label><br>
+    <input type="radio" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label><br>
+    <label for="">FECHA DE NACIMIENTO</label>
+    <input type="date" name="fnac" id="date"> 
+    <br>
+    <input type="submit" name="registrarse" value="registrarse"/>
+    <br> <br>
+    <a href="login.html"><img class="flecha" src="img/flecha.png" alt=""></a>
+
+ </form>
+</body>
+</html>
